@@ -1,0 +1,12 @@
+[Unit]
+Description=Anomaly blocker service
+
+[Service]
+Type=simple
+User=aminer
+Group=aminer
+ExecStart=/usr/lib/ablocker/ablockerd.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
