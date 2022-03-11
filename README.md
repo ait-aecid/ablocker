@@ -23,7 +23,6 @@ The following environment variables are available:
 | Environment variable | Example | Description |
 | -------------------- | ------- | ----------- |
 | KAFKA_TOPICS         | `['aminer','logs']` | List of topics |
-| ABLOCKER_UNIXPATH      | /var/lib/ablocker/aminer.sock | Path to the unix domain socket |
 | KAFKA_BOOTSTRAP_SERVERS | localhost:9092 | Kafka server and port |
 | ABLOCKER_SEARCH        | `['.*example.com.*']` | List of regex-patterns to filter specific events |
 | ABLOCKER_FILTERS       | `['@metadata.type','@timestamp']` |
